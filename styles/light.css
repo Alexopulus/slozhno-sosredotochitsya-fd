@@ -16,3 +16,9 @@
   --title-color: #ffc2e6;
   --decor-color: #353430;
 }
+
+@media (prefers-color-scheme: light) {
+  .header__recording {
+    display: none;
+  }
+}
